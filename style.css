@@ -1,0 +1,32 @@
+body {
+  background-color: red;
+}
+
+.notext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open sans";
+  margin: auto;
+  height: 100vh;
+  width: 100%;
+}
+
+h1 {
+  transition: font-size 0.1s;
+  font-size: 50vh;
+}
+
+.left {
+  background-color: blue;
+}
+
+body {
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  user-select: none;
+}
+
+h1:hover {
+  font-size: 80vh;
+}
